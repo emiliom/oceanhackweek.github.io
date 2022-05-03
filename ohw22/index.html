@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OceanHackWeek 2022 &#8212; OceanHackWeek  documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Information for Applicants" href="applicants.html" />
+    <link rel="prev" title="Code of Conduct" href="../about/code-of-conduct.html" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+      
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../index.html">
+<p class="title">OceanHackWeek</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../about/index.html">
+  About
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="current reference internal nav-link" href="#">
+  OceanHackWeek 2022
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../about/pasthackweeks.html">
+  Past OHW Events
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/oceanhackweek/" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/oceanhackweek" rel="noopener" target="_blank" title="Twitter"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:oceanhkw@uw.edu" rel="noopener" target="_blank" title="Email"><span><i class="fas fa-envelope"></i></span>
+            <label class="sr-only">Email</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><a href="/"><div class="profile-pic"><img src="../_static/logo.png" /></div></a>
+
+<div class="bio-info">
+    <div class="name">
+        OceanHackWeek
+    </div>
+    <div class="focusareas">
+        Data Science + Oceanography + Fisheries
+    </div>
+
+    <!-- <div class="whatido">
+        What I do
+    </div> -->
+</div><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="applicants.html">
+   Information for Applicants
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#applying-for-ohw22">
+   Applying for OHW22
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ohw22-organizers">
+   OHW22 organizers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#global-virtual-event">
+   Global Virtual Event
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#regional-satellite-events">
+   Regional Satellite Events
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/oceanhackweek/oceanhackweek.github.io/edit/source/ohw22/index.md">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+    
+        
+              <div>
+                 <section id="oceanhackweek-2022">
+<h1>OceanHackWeek 2022<a class="headerlink" href="#oceanhackweek-2022" title="Permalink to this headline">#</a></h1>
+<p>OceanHackWeek 2022 will happen from <strong>August 15-19, 2022</strong>. The workshop will take a hybrid form consisting of a global virtual event and a number of regional “satellite” events that are either in-person or virtual.</p>
+<p>The OceanHackWeek program consists of hands-on tutorials, visual presentations, and collaborative hack projects throughout a 5-day period. Participants can apply for being in one of the regional satellites or only the virtual global event. Regional satellite events are connected closely with the virtual global event, while providing additional collaboration and networking opportunities on a regional basis.</p>
+<section id="applying-for-ohw22">
+<h2>Applying for OHW22<a class="headerlink" href="#applying-for-ohw22" title="Permalink to this headline">#</a></h2>
+<p>Here is what you’ll need to do. And go <a class="reference internal" href="applicants.html"><span class="doc std std-doc">here</span></a>.</p>
+</section>
+<section id="ohw22-organizers">
+<h2>OHW22 organizers<a class="headerlink" href="#ohw22-organizers" title="Permalink to this headline">#</a></h2>
+<p>Mention the OHW22 organizing committee here, and link to it. Maybe encourage people to help, include email address.</p>
+</section>
+<section id="global-virtual-event">
+<h2>Global Virtual Event<a class="headerlink" href="#global-virtual-event" title="Permalink to this headline">#</a></h2>
+<p>The Global Virtual Event will take place 3 hours per day over a 5-day period and include all interactive OHW22 tutorials delivered in real time, project brainstorming, and other OHW-wide community building activities. The tutorials will be recorded and posted after the presentation. The exact hours of this global event are still being finalized, but we anticipate the activity time to be structured around the US Pacific Time (UTC-7) this year.</p>
+</section>
+<section id="regional-satellite-events">
+<h2>Regional Satellite Events<a class="headerlink" href="#regional-satellite-events" title="Permalink to this headline">#</a></h2>
+<p>Five regional satellite events will take place this year to serve as local connecting points for project work, community building, and engaging potential future OHW organizers. We invite participants geographically located near one of these regional satellites to apply specifically for these events.</p>
+<p>The satellite events may be virtual or in-person and take different formats depending on the event organizers. All in-person participants are required to be fully vaccinated against COVID-19.</p>
+<p>Regional satellites:</p>
+<ul class="simple">
+<li><p>US East (UTC-4)</p>
+<ul>
+<li><p>Format: informal in-person gatherings</p></li>
+<li><p>Locations: East Boothbay (Bigelow Lab for Ocean Sciences) and Portland (Gulf of Maine Research Institute), Maine, US.</p></li>
+<li><p>We’re having two small parallel events in Maine for participants in the Boothbay and Portland areas as there is no support for travel or lodging. We have conference rooms at both labs available as places for participants to gather, but there won’t be a whole lot of events or logistics scheduled past some scheming on getting the groups together for lunch or an evening.</p></li>
+</ul>
+</li>
+<li><p>US West North (UTC-7) – UG</p>
+<ul>
+<li><p>1-2 sentence summary on the Data Science in Oceanography undergraduate program; duration, LINK to flyer</p></li>
+<li><p>UG program participants will be fully supported for travel and lodging.</p></li>
+<li><p>The two US West North events are linked</p></li>
+</ul>
+</li>
+<li><p>US West North (UTC-7) – general OHW events</p>
+<ul>
+<li><p>Something about other UW event applicants</p></li>
+<li><p>Another liner for other OHW participants</p></li>
+<li><p>The two US West North events are linked</p></li>
+</ul>
+</li>
+<li><p>US West South (UTC-7)</p>
+<ul>
+<li><p>Format: informal in-person gathering</p></li>
+<li><p>Location: San Diego (Scripps Institution of Oceanography), California, USA</p></li>
+</ul>
+</li>
+<li><p>Australia/Oceania (UTC+10)</p>
+<ul>
+<li><p>Format: informal in-person gathering</p></li>
+<li><p>Location: TBD</p></li>
+<li><p>Limited logistic support available for regional participants needing to travel. See PAGE for detail.</p></li>
+</ul>
+</li>
+<li><p>Brazil (UTC-3)</p>
+<ul>
+<li><p>Format: virtual gathering</p></li>
+<li><p>Location: Florianópolis</p></li>
+</ul>
+</li>
+<li><p>OHW-Espanol: (Around UTC-4)</p>
+<ul>
+<li><p>Format: virtual + small in-person gatherings</p></li>
+<li><p>Location: Lima, Peru and Rocha, Uruguay</p></li>
+<li><p>In Spanish / bilingual</p></li>
+</ul>
+</li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+<div class="section">
+   
+</div>
+
+              </div>
+              
+    
+
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../about/code-of-conduct.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Code of Conduct</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="applicants.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Information for Applicants</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+          This blog is created using <a href="http://sphinx-doc.org/">Sphinx</a> and the tools from <a href="https://executablebooks.org/en/latest/">The Executable Book Project</a>.<br/>
+      </p>
+    </div>
+  </footer>
+  </body>
+</html>
